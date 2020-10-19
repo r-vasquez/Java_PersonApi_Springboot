@@ -16,7 +16,7 @@ public class DefaultPersonService implements PersonService{
     private final PersonDao personDao;
 
     @Autowired
-    public DefaultPersonService(@Qualifier("fakeDao") PersonDao personDao) {
+    public DefaultPersonService(@Qualifier("postgres") PersonDao personDao) {
         this.personDao = personDao;
     }
 

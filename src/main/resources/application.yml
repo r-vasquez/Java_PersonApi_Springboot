@@ -1,0 +1,7 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:9876/persondb
+    username: postgres
+    password: password
+    pool-size: 30
+
